@@ -21,7 +21,8 @@ public class ContasAPagarApplication implements CommandLineRunner {
 	private AccountRepository accountRepository;
 
 	public static void main(String[] args) {
-		SpringApplication.run(ContasAPagarApplication.class, args);
+		SpringApplication
+				.run(ContasAPagarApplication.class, args);
 	}
 
 	@Override
